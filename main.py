@@ -21,7 +21,7 @@ app.add_middleware(
 )
 
 #  Groq API Key (Hardcoded for local testing — DO NOT share publicly)
-groq_api_key = "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"
+groq_api_key = "" #your api key
 client = Groq(api_key=groq_api_key)
 
 # Directories
